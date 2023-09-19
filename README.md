@@ -4,7 +4,7 @@
 
 <p align="center">A <i>simple</i> 🥸 to-do list plugin for Neovim built using <b>lua</b>.</p>
 
-![Demo GIF](URL.gif)
+![Demo GIF](https://github.com/mariogarridopt/todo.nvim/assets/1191102/caf8e152-fdf2-42bb-b514-130baf5d4fbd)
 
 ### Usage
 
