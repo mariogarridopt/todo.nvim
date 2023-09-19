@@ -2,7 +2,7 @@
   todo.nvim
 </h1>
 
-<p align="center">A <i>simple</i> 🥸 todo list plugin for Neovim built using <b>lua</b>.</p>
+<p align="center">A <i>simple</i> 🥸 to-do list plugin for Neovim built using <b>lua</b>.</p>
 
 ![Demo GIF](URL.gif)
 
@@ -16,13 +16,13 @@ Use the key mappings:
 
 ### Configure
 
-The todo plugin needs to be initialised using:
+The to-do plugin needs to be initialized using:
 
 ```lua
 require('todo').setup {}
 ```
 
-However you can pass in some config options, the defaults are:
+However, you can pass in some config options, the defaults are:
 
 ```lua
 require('todo').setup {
@@ -39,7 +39,7 @@ require('todo').setup {
 
 Install just as you would a normal plugin, here are some options:
 
-### Built in package manager
+### Built-in package manager
 
 ```bash
 mkdir -p ~/.local/share/nvim/site/pack/plugins/start
