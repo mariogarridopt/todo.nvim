@@ -50,10 +50,8 @@ M.toggle_done = function ()
 	local current_line = vim.api.nvim_get_current_line()
 
     if current_line:find("^%s*" .. M._todo_symbol:escape()) then
-		print("change to done")
         vim.api.nvim_set_current_line(M._done_symbol .. current_line:sub(#M._todo_symbol + 1))
     elseif current_line:find("^%s*" .. M._done_symbol:escape()) then
-		print("change to todo")
         vim.api.nvim_set_current_line(M._todo_symbol .. current_line:sub(#M._done_symbol + 1))
     end
 end
